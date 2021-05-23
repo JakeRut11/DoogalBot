@@ -88,7 +88,7 @@ var script = ["Ooh!",
 "No, you mustn't!",
 "Please! No more!",
 "Huh? Ohh! Ow! Ohh! I can't feel my paws!",
-"No! Leave me along, you evil, evil fiend!",
+"No! Leave me alone, you evil, evil fiend!",
 "Could you come back in five minutes? I think I can get some lollipops out of him.",
 "Come on, guys. Let's keep moving. Keep going. Keep going.",
 "Zebedee! Zebedee! Zebedee!",
@@ -284,7 +284,7 @@ function doPost(e){
   if (text.indexOf("!doogal") > -1){
     sendText(script[chooseText()]);
   }
-  // Responds to a random message, occurs every 30 messages on average.
+  // Responds to a random message, occurs every 100 messages on average.
   else if (randomNum == 27) {
     sendText(script[chooseText()]);
   }
