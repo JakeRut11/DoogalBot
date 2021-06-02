@@ -279,12 +279,12 @@ function doPost(e){
   var post = JSON.parse(e.postData.getDataAsString());
   var text = post.text;
   var user_id = post.user_id;
-  var randomNum = Math.floor(Math.random() * 100);
+  var randomNum = Math.floor(Math.random() * 500);
   // Responds if !doogal is said in chat.
   if (text.indexOf("!doogal") > -1){
     sendText(script[chooseText()]);
   }
-  // Responds to a random message, occurs every 100 messages on average.
+  // Responds to a random message, occurs every 500 messages on average.
   else if (randomNum == 27) {
     sendText(script[chooseText()]);
   }
