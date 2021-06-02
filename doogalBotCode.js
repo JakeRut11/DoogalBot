@@ -1,7 +1,7 @@
 // Program: Doogal Bot
 // Author: Jacob Rutkowski
 // Purpose: GroupMe Bot that sends quotes from Doogal in the 2005 film 'Doogal' at random and on command.
-// Last Updated: 5/20/21
+// Last Updated: 6/2/21
 
 // Global Variables
 var botId = "Insert your Bot ID here";
